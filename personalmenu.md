@@ -1,4 +1,4 @@
-**Pre configuired config for ESX**
+**Pre configured config for ESX**
 ````
 LoadFrameWork = function()
     TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
