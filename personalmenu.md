@@ -2,12 +2,15 @@
 **Pre configured config for ESX**
 ````
 LoadFrameWork = function()
-    TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-    Wait(500)
-    return ESX
+    return {}
 end
 
 PlayerJob = function()
+    local ESX = nil
+    while ESX == nil do 
+        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+        Wait(0)
+    end
     return ESX.GetPlayerData().job.name
 end
 ````
