@@ -10,3 +10,14 @@ PlayerJob = function()
     return ESX.GetPlayerData().job.name
 end
 ````
+**Pre configured config for QBCore**
+````
+LoadFrameWork = function()
+    local QBCore = exports['qb-core']:GetCoreObject()
+    return QBCore
+end
+
+PlayerJob = function()
+    return QBCore.Functions.GetPlayerData().job.name
+end
+````
