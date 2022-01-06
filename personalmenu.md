@@ -21,3 +21,18 @@ PlayerJob = function()
     return QBCore.Functions.GetPlayerData().job.name
 end
 ````
+
+**Work Menu**
+````
+ ['jobname'] = {
+    {
+       shouldclose = true or false,
+       label = "Label",
+       submenu = false or {submenu config},
+       type = "client or server",
+       event = "eventname",
+       parameter = "parameter or remove this convar",
+       icon = "icon class"
+    },
+ }
+        ````
