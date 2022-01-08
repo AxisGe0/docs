@@ -40,3 +40,14 @@ end
     },
  }
  ````
+**Commands**
+````
+{
+     shouldclose = false or true,
+     label = "Label here",
+     submenu = false,
+     event = "AXFW:PersonalMenu:Command",
+     parameter = "Command Here",
+     icon = "icon here"
+}
+
