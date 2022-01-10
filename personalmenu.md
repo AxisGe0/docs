@@ -22,6 +22,7 @@ LoadFrameWork = function()
 end
 
 PlayerJob = function()
+    local QBCore = exports['qb-core']:GetCoreObject()
     return QBCore.Functions.GetPlayerData().job.name
 end
 ````
