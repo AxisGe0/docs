@@ -27,6 +27,17 @@ PlayerJob = function()
 end
 ````
 
+**Pre configured config for Standalone**
+````
+LoadFrameWork = function()
+    return {}
+end
+
+PlayerJob = function()
+    return 'none'
+end
+````
+
 **Work Menu**
 ````
  ['jobname'] = {
