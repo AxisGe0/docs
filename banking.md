@@ -61,7 +61,9 @@ TransferMoney = function(src,target,amount)--Server
         end
     end
 end
+````
 **QBCore Default Configuration**
+
 ````
 CreateThread(function()
     if IsDuplicityVersion() then 
@@ -126,3 +128,4 @@ TransferMoney = function(src,target,amount)--Server
         end
     end
 end
+````
