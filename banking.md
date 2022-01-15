@@ -57,7 +57,7 @@ TransferMoney = function(src,target,amount)--Server
     if Player and Target and amount and amount > 0 then 
         if Player.PlayerData.money.bank >= amount then 
             Player.Functions.RemoveMoney('bank',amount)
-            Player.Functions.AddMoney('bank',amount)
+            Target.Functions.AddMoney('bank',amount)
         end
     end
 end
