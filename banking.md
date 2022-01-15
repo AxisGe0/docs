@@ -62,7 +62,7 @@ TransferMoney = function(src,target,amount)--Server
     end
 end
 ````
-**QBCore Default Configuration**
+**ESX Default Configuration**
 
 ````
 CreateThread(function()
