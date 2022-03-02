@@ -1,4 +1,4 @@
-**You can search for icons on this website <a href="https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use">Link</a>**<br>
+**You can search for icons on this website <a href="https://fontawesome.com/v5/search?s=solid%2Cbrands">Link</a>**<br>
 **Pre configured config for ESX**
 ````
 LoadFrameWork = function()
