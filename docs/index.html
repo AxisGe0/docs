@@ -12,11 +12,16 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-        name: 'Your Docs Title',
-        repo: 'AxisGe0/docs', // Replace 'your-username' with your GitHub username and 'your-repo' with your repository name
-        loadSidebar: true,
-        subMaxLevel: 2,
-    };
+            name: 'Your Docs Title',
+            repo: 'your-username/your-repo',
+            loadSidebar: true,
+            subMaxLevel: 2,
+            alias: {
+                '/_sidebar.md': '_sidebar.md',
+                '/banking.md': 'banking.md',
+                '/personalmenuv2.md': 'personalmenuv2.md'
+            },
+        };
 </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
